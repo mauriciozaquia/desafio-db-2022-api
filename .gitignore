@@ -259,4 +259,7 @@ gradle-app.setting
 ### Relatorio ###
 Relatorio/
 
+## Allure ###
+allure-results
+
 # End of https://www.toptal.com/developers/gitignore/api/java,intellij,maven,gradle,eclipse,netbeans
