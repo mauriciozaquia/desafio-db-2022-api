@@ -13,16 +13,16 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 * [JUnit 5](https://junit.org/junit5/)
 * [Gradle](https://gradle.org/)
 * [REST-assured](https://rest-assured.io/)
-* [Allure Test Report](https://qameta.io/allure-report/)
+* [Allure tests Report](https://qameta.io/allure-report/)
 
 Além disto é bom ter uma IDE Java para trabalhar com o código como por exemplo o [IntelliJ IDEA](https://www.jetbrains.com/pt-br/idea/) ou [Ecplipse](https://www.eclipse.org/downloads/) dentre outras.
 
 ### EXECUÇÃO
 
 * Abra o projeto "desafio-db-2022-api"
-* Navegar até o pacote src/test/java/Test/
-* No package *ApiDeTarefas* ou *Extra* clicar com o botão direito
-* Clicar no menu "Run 'Tests in"
+* Navegar até o pacote src/test/java/tests/
+* No package *tests* clicar com o botão direito
+* Clicar no menu "Run 'Tests' in 'tests'"
 
 ### GERAÇÃO DE RELATÓRIO - ALLURE
 
@@ -35,8 +35,8 @@ Além disto é bom ter uma IDE Java para trabalhar com o código como por exempl
 
 * Cenário 1: Listar um contato
 * Cenário 2: Cadastrar um contato
-* Cenário 3: Editar um contato
-* Cenário 4: Deletar um contato
+* Cenário 3: Editar um contato (Atualizar o ID na classe)
+* Cenário 4: Deletar um contato (Atualizar o id na classe)
 
 ### CENÁRIOS EXTRAS
 

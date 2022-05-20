@@ -1,7 +1,7 @@
-package Test.Extra;
+package tests.extra;
 
-import TestBase.CriarContatoTestBase;
-import Utilities.FileOperations;
+import test.base.CriarContatoTestBase;
+import utilities.FileOperations;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;

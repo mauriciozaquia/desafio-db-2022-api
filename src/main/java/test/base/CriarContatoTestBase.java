@@ -1,8 +1,8 @@
-package TestBase;
+package test.base;
 
-import Model.CriarContatoModel;
-import Utilities.FakersGeneratorPtBr;
-import Utilities.FileOperations;
+import model.CriarContatoModel;
+import utilities.FakersGeneratorPtBr;
+import utilities.FileOperations;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.ContentType;
