@@ -1,0 +1,161 @@
+{
+  "$schema": "https://json-schema.org/draft/2019-09/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "default": {},
+  "title": "Root Schema",
+  "required": [
+    "data"
+  ],
+  "properties": {
+    "data": {
+      "type": "object",
+      "default": {},
+      "title": "The data Schema",
+      "required": [
+        "id",
+        "type",
+        "attributes"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "default": "",
+          "title": "The id Schema",
+          "examples": [
+            "1693"
+          ]
+        },
+        "type": {
+          "type": "string",
+          "default": "",
+          "title": "The type Schema",
+          "examples": [
+            "contacts"
+          ]
+        },
+        "attributes": {
+          "type": "object",
+          "default": {},
+          "title": "The attributes Schema",
+          "required": [
+            "name",
+            "last-name",
+            "email",
+            "age",
+            "phone",
+            "address",
+            "state",
+            "city"
+          ],
+          "properties": {
+            "name": {
+              "type": "string",
+              "default": "",
+              "title": "The name Schema",
+              "examples": [
+                "Matheus"
+              ]
+            },
+            "last-name": {
+              "type": "string",
+              "default": "",
+              "title": "The last-name Schema",
+              "examples": [
+                "Ordonhes"
+              ]
+            },
+            "email": {
+              "type": "string",
+              "default": "",
+              "title": "The email Schema",
+              "examples": [
+                "hzdv44@gmail.com"
+              ]
+            },
+            "age": {
+              "type": "integer",
+              "default": 0,
+              "title": "The age Schema",
+              "examples": [
+                102
+              ]
+            },
+            "phone": {
+              "type": "string",
+              "default": "",
+              "title": "The phone Schema",
+              "examples": [
+                "(41) 90506-8229"
+              ]
+            },
+            "address": {
+              "type": "string",
+              "default": "",
+              "title": "The address Schema",
+              "examples": [
+                "Rodovia Maria Helena da Gama"
+              ]
+            },
+            "state": {
+              "type": "string",
+              "default": "",
+              "title": "The state Schema",
+              "examples": [
+                "Mato Grosso do Sul"
+              ]
+            },
+            "city": {
+              "type": "string",
+              "default": "",
+              "title": "The city Schema",
+              "examples": [
+                "Aragua�u"
+              ]
+            }
+          },
+          "examples": [{
+            "name": "Matheus",
+            "last-name": "Ordonhes",
+            "email": "hzdv44@gmail.com",
+            "age": 102,
+            "phone": "(41) 90506-8229",
+            "address": "Rodovia Maria Helena da Gama",
+            "state": "Mato Grosso do Sul",
+            "city": "Aragua�u"
+          }]
+        }
+      },
+      "examples": [{
+        "id": "1693",
+        "type": "contacts",
+        "attributes": {
+          "name": "Matheus",
+          "last-name": "Ordonhes",
+          "email": "hzdv44@gmail.com",
+          "age": 102,
+          "phone": "(41) 90506-8229",
+          "address": "Rodovia Maria Helena da Gama",
+          "state": "Mato Grosso do Sul",
+          "city": "Aragua�u"
+        }
+      }]
+    }
+  },
+  "examples": [{
+    "data": {
+      "id": "1693",
+      "type": "contacts",
+      "attributes": {
+        "name": "Matheus",
+        "last-name": "Ordonhes",
+        "email": "hzdv44@gmail.com",
+        "age": 102,
+        "phone": "(41) 90506-8229",
+        "address": "Rodovia Maria Helena da Gama",
+        "state": "Mato Grosso do Sul",
+        "city": "Aragua�u"
+      }
+    }
+  }]
+}
