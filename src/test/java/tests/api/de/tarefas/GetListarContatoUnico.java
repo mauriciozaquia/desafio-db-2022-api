@@ -1,6 +1,6 @@
-package Test.ApiDeTarefas;
+package tests.api.de.tarefas;
 
-import TestBase.ListarContatoUnicoTestBase;
+import test.base.ListarContatoUnicoTestBase;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;

@@ -1,6 +1,6 @@
-package Test.ApiDeTarefas;
+package tests.api.de.tarefas;
 
-import TestBase.DeletarContatoTestBase;
+import test.base.DeletarContatoTestBase;
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
